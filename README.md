@@ -1,15 +1,28 @@
-# Basic Sample Hardhat Project
+<img  src="./imagen/Frame.jpg" width="830" height="50" >
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+*Second project attempt, carried out step by step, using what was learned in the workshops and taking it to the next level for Chainlink Fall 2021 Hackathon.*
+_Team: [Pinajmr](https://www.linkedin.com/in/pinajmr/) Dev and [Sarap](https://www.linkedin.com/in/sarahrappeneau/) UI & UX. Feel free to make a contribution or correction, beginner project._
 
-Try running some of the following tasks:
+# Humans to Mars - NFT Collectible
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+#### When the developments of taking the rover to Mars had been a challenge, they did not imagine who were the first 100 Humas in this crew, they all have completely random aspects and attributes using Oracles, be part of this new adventure.
+<!-- ![alt text](./imagen/logo.png "Humans to Mars - NFT Collectibler") -->
+
+##### [Link to site (soon)](https://)
+
+#### technology used
+<img src="./imagen/tecn.png" width="830" height="400">
+
+### How it works
+* Blockchain uses the [Polygon ](https://polygon.technology/) and each user account is linked to a Ether account.
+* Can you login with external provider like Metamask.
+* Enter the website (Working on)
+
+### Contract address
+Our deployed contract on the Mumbai Polygon Testnet can be found the last beta version [here](https://mumbai.polygonscan.com/address/0x53d2E40A2aDBD8B17eff21F4159A9f2335534083).
+
+### Donations
+
+* <strong>ETH: </strong>0x4317c44fD3143D8AC5723865CF046238A2cd8FD3
+
+
