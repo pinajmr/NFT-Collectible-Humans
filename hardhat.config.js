@@ -7,7 +7,7 @@ const MUMBAI_PROJECT_ID = process.env.MUMBAI_PROJECT_ID;
 const POLYGON_PROJECT_ID = process.env.POLYGON_PROJECT_ID;
 
 module.exports = {
-  solidity: "0.8.4",
+  solidity: "0.8.0",
   networks: {
     rinkeby: {
       url: `https://eth-rinkeby.alchemyapi.io/v2/${RINKEBY_PROJECT_ID}`,
