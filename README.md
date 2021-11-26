@@ -3,15 +3,17 @@
 *Second project attempt, carried out step by step, using what was learned in the workshops and taking it to the next level for Chainlink Fall 2021 Hackathon.*
 _Team: [Pinajmr](https://www.linkedin.com/in/pinajmr/) Dev and [Sarap](https://www.linkedin.com/in/sarahrappeneau/) UI & UX. Feel free to make a contribution or correction, beginner project._
 
-# Humans to new world - NFT Collectible
+# <img  src="./imagen/Logo.png" width="377" height="70" > to new world - NFT Collectible
 
 #### When the developments of taking the rover to Mars had been a challenge, they did not imagine who were the first 2048 Humas in this crew, they all have completely random aspects and attributes using Oracles, be part of this new adventure.
-<!-- ![alt text](./imagen/logo.png "Humans to Mars - NFT Collectibler") -->
 
+
+##### [Link to frontend repository](https://github.com/pinajmr/NFT-Collectible-Humans-Interface)
 ##### [Link to site (soon)](https://)
 
-#### technology used
-<img src="./imagen/tecn.png" width="830" height="400">
+#### Technology used
+![alt text](./imagen/tecn.png "technology used")
+
 
 ### How it works
 * Blockchain uses the [Polygon ](https://polygon.technology/) and each user account is linked to a Ether account.
