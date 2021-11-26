@@ -1,9 +1,9 @@
 const deploy = async() => {
     const [deployer] = await ethers.getSigners();
     console.log("Deploying contract with the account: ", deployer.address);
-    const GalleryArt = await ethers.getContractFactory("GalleryArt");
-    const deployed = await GalleryArt.deploy(100);
-    console.log("Gallery Art is deployed at: ", deployed.address);
+    const Humans = await ethers.getContractFactory("Humans");
+    const deployed = await Humans.deploy(2048);
+    console.log("Humans 2048 is deployed at: ", deployed.address);
 }
 
 deploy()

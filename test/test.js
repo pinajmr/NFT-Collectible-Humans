@@ -1,10 +1,10 @@
 const { expect } = require('chai');
 
-describe("Gallery Art Contract",  () => {
+describe("Humans  Contract",  () => {
     const setup = async ({ maxSupply = 10000 }) => {
         const [owner] = await ethers.getSigners();
-        const GalleryArt = await ethers.getContractFactory("GalleryArt");
-        const deployed = await GalleryArt.deploy(maxSupply);
+        const Humans = await ethers.getContractFactory("Humans");
+        const deployed = await Humans.deploy(maxSupply);
     
     return {
         owner,
@@ -44,7 +44,7 @@ describe("Gallery Art Contract",  () => {
       
             // Assert the last minting
             await expect(deployed.mint()).to.be.revertedWith(
-              "No Art Gallery left :("
+              "No  Humans left :("
             );
           });      
     });

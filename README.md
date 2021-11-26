@@ -3,9 +3,9 @@
 *Second project attempt, carried out step by step, using what was learned in the workshops and taking it to the next level for Chainlink Fall 2021 Hackathon.*
 _Team: [Pinajmr](https://www.linkedin.com/in/pinajmr/) Dev and [Sarap](https://www.linkedin.com/in/sarahrappeneau/) UI & UX. Feel free to make a contribution or correction, beginner project._
 
-# Humans to Mars - NFT Collectible
+# Humans to new world - NFT Collectible
 
-#### When the developments of taking the rover to Mars had been a challenge, they did not imagine who were the first 100 Humas in this crew, they all have completely random aspects and attributes using Oracles, be part of this new adventure.
+#### When the developments of taking the rover to Mars had been a challenge, they did not imagine who were the first 2048 Humas in this crew, they all have completely random aspects and attributes using Oracles, be part of this new adventure.
 <!-- ![alt text](./imagen/logo.png "Humans to Mars - NFT Collectibler") -->
 
 ##### [Link to site (soon)](https://)
@@ -19,7 +19,7 @@ _Team: [Pinajmr](https://www.linkedin.com/in/pinajmr/) Dev and [Sarap](https://w
 * Enter the website (Working on)
 
 ### Contract address
-Our deployed contract on the Mumbai Polygon Testnet can be found the last beta version [here](https://mumbai.polygonscan.com/address/0x53d2E40A2aDBD8B17eff21F4159A9f2335534083).
+Our deployed contract on the Mumbai Polygon Testnet can be found the last beta version [here](https://mumbai.polygonscan.com/address/0x7f553120e739880A10F153A01bC78d0eEC09693F).
 
 ### Donations
 

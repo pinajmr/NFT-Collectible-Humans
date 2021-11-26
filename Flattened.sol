@@ -1318,13 +1318,13 @@ library Base64 {
 }
 
 
-// File contracts/GalleryArtDNA.sol
+// File contracts/HumansDNA.sol
 
 
 
 pragma solidity ^0.8.0;
 
-contract GalleryArtDNA {
+contract HumansDNA {
     string[] private _accessoriesType = [
         "Blank",
         "Kurt",
@@ -1625,7 +1625,9 @@ contract GalleryArtDNA {
 }
 
 
-// File contracts/GalleryArt.sol
+// File contracts/Humans.sol
+
+
 pragma solidity ^0.8.0;
 
 
@@ -1633,7 +1635,7 @@ pragma solidity ^0.8.0;
 
 
 
-contract GalleryArt is ERC721, ERC721Enumerable, GalleryArtDNA {
+contract Humans is ERC721, ERC721Enumerable, HumansDNA {
     using Counters for Counters.Counter;
     using Strings for uint256;
 
@@ -1641,13 +1643,13 @@ contract GalleryArt is ERC721, ERC721Enumerable, GalleryArtDNA {
     uint256 public maxSupply;
     mapping(uint256 => uint256) public tokenDNA;
 
-    constructor(uint256 _maxSupply) ERC721("GalleryArt", "SARA") {
+    constructor(uint256 _maxSupply) ERC721("Humans", "H2048") {
         maxSupply = _maxSupply;
     }
 
     function mint() public {
         uint256 current = _idCounter.current();
-        require(current < maxSupply, "No ArtGallery left:(" );
+        require(current < maxSupply, "No Humans left:(" );
         
         tokenDNA[current] = deterministicPseudoRandomDNA(current, msg.sender);
         _safeMint(msg.sender, current);
@@ -1706,9 +1708,9 @@ contract GalleryArt is ERC721, ERC721Enumerable, GalleryArtDNA {
 
         string memory jsonURI = Base64.encode(
             abi.encodePacked(
-                '{ "name": "Humans #',
+                '{ "name": "Human #',
                 tokenId.toString(),
-                '", "description": "Travel  customized Avataaars stored on chain to teach DApp development on PinaDev", "image": "',
+                '", "description": "Randomly selected traveler for the most important mission, colonize the new planet, for human survival.", "image": "',
                 image,
                 '"}'
             )
