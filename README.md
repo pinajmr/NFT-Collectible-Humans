@@ -21,7 +21,7 @@ _Team: [Pinajmr](https://www.linkedin.com/in/pinajmr/) Dev and [Sarap](https://w
 * Enter the website (Working on)
 
 ### Contract address
-Our deployed contract on the Mumbai Polygon Testnet can be found the last beta version [here](https://mumbai.polygonscan.com/address/0x7f553120e739880A10F153A01bC78d0eEC09693F).
+Our deployed contract on the Mumbai Polygon Testnet can be found the last beta version [here](https://mumbai.polygonscan.com/address/0x481cc04ef52038B7b8157419D8F7e2D88A27e791).
 
 ### Donations
 
