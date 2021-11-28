@@ -9,7 +9,7 @@ _Team: [Pinajmr](https://www.linkedin.com/in/pinajmr/) Dev and [Sarap](https://w
 
 
 ##### [Link to frontend repository](https://github.com/pinajmr/NFT-Collectible-Humans-Interface)
-##### [Link to site (soon)](https://)
+##### [Link to site humans.eth(Rinkeby)](https://bafybeihlpe7kpnaifm7tn4jdrm6z2kzc44kl6kvm5axhwnyz5tormchdpq.ipfs.infura-ipfs.io/#/)
 
 #### Technology used
 ![alt text](./imagen/tecn.png "technology used")
@@ -18,7 +18,6 @@ _Team: [Pinajmr](https://www.linkedin.com/in/pinajmr/) Dev and [Sarap](https://w
 ### How it works
 * Blockchain uses the [Polygon ](https://polygon.technology/) and each user account is linked to a Ether account.
 * Can you login with external provider like Metamask.
-* Enter the website (Working on)
 
 ### Contract address
 Our deployed contract on the Mumbai Polygon Testnet can be found the last beta version [here](https://mumbai.polygonscan.com/address/0x481cc04ef52038B7b8157419D8F7e2D88A27e791).
